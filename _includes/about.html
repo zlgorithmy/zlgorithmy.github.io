@@ -1,0 +1,121 @@
+<div class="about row">
+
+    <div class="col-md-8">
+
+        <h2>About Me</h2>
+
+        <h4>　　毕业于西安建筑科技大学,现就职西安无敌科技。</h4>
+
+        <h2>Contact</h2>
+
+	<h4><ul>
+            <li>QQ：<a href="tencent://message/?uin=1150682666&Site=Sambow&Menu=yes">1150682666</a></li>
+            <li>GitHub：<a href="https://github.com/caocmh">Tristan Cao</a></li>
+            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
+        </ul></h4>
+
+        <h2>Skill Keywords</h2>
+
+        {% if site.skill_Java_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Java Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Java_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Tools_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Tools Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Tools_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Web_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Web Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Android_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Android Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Android_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_Computer_Network_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Computer Network Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_Computer_Network_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_SQL_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">SQL Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_SQL_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_OS_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">OS Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_OS_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <br/>
+        <hr>
+        <h2  id="jump">留言板</h2>
+        <br/>
+        <!-- Comments-->
+        {% include disqus-comments.html %}
+    </div>
+    
+    <div class="col-md-4">
+        {% include sidebar-popular-repo.html %}
+    </div>
+</div>
