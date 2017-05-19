@@ -1,2 +1,1 @@
-# Tristan Cao
-My Blog
+# My Blog
