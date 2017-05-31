@@ -81,10 +81,9 @@ side_bar_repo_limit: 5 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-skill_Java_keywords: [DBCP, Socket, c3p0, Struts2, Spring, SpringMVC, Mybatis, Maven, Json]
-skill_Tools_keywords: [OneNote, Git, ShadowSocks, Axure, Rational Rose, Navicat]
-skill_Web_keywords: [HTML, CSS, JavaScript, Bootstrap, CommonJs, AJAX, Tomcat, Nginx]
+skill_C/C++_keywords: [C, C++]
+skill_Tools_keywords: [visual studio 2013, Android studio2.2]
 skill_Android_keywords: [Android]
 skill_Computer_Network_keywords: [IP, TCP, UDP, HTTP]
-skill_SQL_keywords: [My SQL, SQL server, Oracle SQL, nosql]
-skill_OS_keywords: [Ubuntu, Redhat]
+skill_SQL_keywords: [My SQL, SQL server, Oracle SQL, Sqlite]
+skill_OS_keywords: [Windows, Linux, Mac os]

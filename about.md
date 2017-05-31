@@ -14,7 +14,7 @@ subtitle:
             <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/3.jpg" target="_blanks">
                 <span class="flag-icon flag-icon-cn"></span> 中文
             </a>
-            <h4>注：由于个人简历暂未制作，临时内容仅供参考。</h4>
+            <h4>注：简历请参考微信小程序。</h4>
 
             <h3><a class="pull-left hvr-grow" href="#jump"><span class="mega-octicon octicon-mail"></span>   给我留言</a></h3>
 
