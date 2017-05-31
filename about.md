@@ -16,7 +16,7 @@ subtitle:
             </a>
             <h4>注：简历请参考微信小程序。</h4>
 
-            <h3><a class="pull-left hvr-grow" href="#jump"><span class="mega-octicon octicon-mail"></span>   联系我</a></h3>
+            <h3><a class="pull-left hvr-grow" href="#jump"><span class="mega-octicon octicon-mail"></span>   给我留言</a></h3>
 
 
 css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
