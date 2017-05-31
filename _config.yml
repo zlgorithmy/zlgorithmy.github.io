@@ -83,7 +83,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 # For about.html. Fell free to create your own!
 
 skill_Tools_keywords: [visual studio 2013, Android studio2.2]
-skill_programming language_keywords: [C, C++, JAVA, python]
+skill_Programming_Language_keywords: [C, C++, JAVA, python]
 skill_Android_keywords: [Android]
 skill_Computer_Network_keywords: [IP, TCP, UDP, HTTP]
 skill_SQL_keywords: [My SQL, SQL server, Oracle SQL, Sqlite]
