@@ -81,7 +81,6 @@ side_bar_repo_limit: 5 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-markdown: redcarpet redcarpet: extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
 skill_Tools_keywords: [visual studio 2013, Android studio2.2]
 skill_Programming_Language_keywords: [C, C++, JAVA, python]
