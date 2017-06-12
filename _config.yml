@@ -8,14 +8,14 @@
 # Site settings
 title: 竭尽全力
 name: Tristan Cao
-email: caocmh@qq.com
+email: zlgorithmy@cz8023.cn
 location: Xi'an, China
 company: Inventec Besta Co., Ltd.
 company_url: http://www.inventec.com/
-github_url: https://github.com/caocmh
+github_url: https://github.com/zlgorithmy
 description: This is a personal website of Tristan Cao | 个人博客，用于记录学习笔记
 favicon: favicon.png # Image must be in assets/images
-url: http://caocmh.github.io # the base hostname & protocol for your site
+url: http://zlgorithmy.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
